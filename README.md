@@ -1,2 +1,2 @@
 # ProgressiveTracker
-made this app into a pwa
+made this app into a progressive web app (pwa)
