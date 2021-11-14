@@ -3,7 +3,7 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 const compression = require('compression');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3005;
 
 const app = express();
 
@@ -16,7 +16,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/budget_tracker',
+  process.env.MONGODB_URI ||
+    'mongodb+srv://mgroberman:<password>@cluster0.toizs.mongodb.net/budget_tracker?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useFindAndModify: false,

@@ -1,5 +1,5 @@
 {
-  "name": "ProgressiveTracker",
+  "name": "progressivetracker",
   "version": "1.0.0",
   "description": "application converted to PWA",
   "main": "server.js",
