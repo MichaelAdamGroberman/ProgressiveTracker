@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#body {
+  font-size: 16px;
+  font-family: Arial;
+  padding-top: 50px;
+  color: rgb(100, 100, 100);
+}
+
+button,
+input {
+  font-size: 1em;
+  font-family: Arial;
+}
+
+label {
+  font-weight: 900;
+}
+
+input {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: .4em .8em;
+  background-color: #E2E8F0;
+}
+
+input:focus {
+  background-color: #FFFFFF;
+  border: 2px solid #CBD5E0;
+  outline: 0;
+}
+
+button {
+  background: #85e6dc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgb(100, 100, 100);
+  padding: 10px;
+  box-shadow:  1px 1px 1px 0 rgb(100, 100, 100);
+}
+
+button:active {
+  box-shadow: none;
+  text-decoration: none;
+  transform: translateY(3px);
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+.error {
+  color: red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.total {
+  font-size: 150%;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.transactions {
+  text-align: left;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.transaction-buttons {
+  margin-top: 25px;
+}
