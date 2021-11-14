@@ -17,7 +17,7 @@ app.use(express.static('public'));
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    'mongodb+srv://mgroberman:<password>@cluster0.toizs.mongodb.net/budget_tracker?retryWrites=true&w=majority',
+    'mongodb+srv://mgroberman:Tu3$day23@cluster0.toizs.mongodb.net/budget_tracker?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useFindAndModify: false,
