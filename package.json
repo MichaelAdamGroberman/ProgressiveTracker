@@ -1,7 +1,7 @@
 {
-  "name": "pwa-budget-app",
+  "name": "ProgressiveTracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "application converted to PWA",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/MichaelAdamGroberman/ProgressiveTracker.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
+  "author": "Michael Adam Groberman",
+  "license": "MIT",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
