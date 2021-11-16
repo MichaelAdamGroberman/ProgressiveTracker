@@ -1,24 +1,33 @@
 {
-  "name": "progressivetracker",
+  "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "application converted to PWA",
-  "main": "server.js",
+  "description": "",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "lite-server": "lite-server"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichaelAdamGroberman/ProgressiveTracker.git"
+    "url": "git@work.github.com:arosenkranz/googlebooks-app.git"
   },
-  "author": "Michael Adam Groberman",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "compression": "^1.7.4",
+    "apollo-server-express": "^2.19.2",
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
-    "lite-server": "^2.5.3",
-    "mongoose": "^5.13.12",
-    "morgan": "^1.10.0"
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.12.6",
+    "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
