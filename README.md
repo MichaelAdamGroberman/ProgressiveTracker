@@ -1,8 +1,8 @@
-# Workout Tracker using MongoDB
+# Workout Tracker rebult to be a PWA
 <a href="https://calm-peak-82271.herokuapp.com/?id=6194d1a6ee34c90004b56a62/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>    <a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>   
 
 ## Description
-This is a web application that utulizes a nosqp database. The goals to reach in this assignmetn were to properly design our exzcercise and databae schemas, and then create the routes and methods for information to travel between the database to front end, and vuse versa.
+This is a web application that utulizing a mongo database hosted elsewhere. When the client that loaded the web appplication loses internet connecvtivity, their changes and interaction with the app will be cached locally. Once they reconnect to the web application's live database server, the dats is synced and the application goes back online
 
 #### Main Page:
 
