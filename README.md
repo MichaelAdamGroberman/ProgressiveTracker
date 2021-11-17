@@ -1,17 +1,12 @@
 
-#### Main Page:
+#### Progressive Budget Tracker
 
-![Screenshot1](/assets/screenshot1.png)
+[Deployed App](https://serene-depths-69227.herokuapp.com)
+THe assignment was to turn some premade code into a PWA. This means the app functions regularlly, even if the end-user's client loses connectivity to the application. All changes are cached locally, and then a sync happens oncee the application reconnects to the internet.
 
-![Screenhot2]](/assets/screenshot2.png)
-  
-![Screenshot3](/assets/screenshot3.png)
 
-  ## Table of Contents
 
-  
-  ## Technology Used
-
+  ![Screenshot1](/assets/screenshot.jpg)
 
   ## License
   ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)    
