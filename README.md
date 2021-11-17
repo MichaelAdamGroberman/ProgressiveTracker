@@ -1,22 +1,16 @@
-# Book Search App
-<a href="https://booksearch-tc.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>    <a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>   
+# Workout Tracker using MongoDB
+<a href="https://calm-peak-82271.herokuapp.com/?id=6194d1a6ee34c90004b56a62/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>    <a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>   
 
 ## Description
-Book Search is a full-stack MERN app that uses the Google Books API to let you search for any book title and returns results for the title searched. The search results are displayed with the book's title, image and description. You can signup to create a username and save your favorite books to display in your saved books page. The saved books are persistent and will still show up when you log out and return to the app.
-
-This app was refactored from an existing, fully functional MERN app setup with a RESTful API. I refactored the existing RESTful API to a GraphQL API using Apollo Server with GraphQL queries and mutations along with MongoDB, Express, React and Node. Refactoring to a GraphQL API allows for less calls to the server and avoids overfetching of data. 
+This is a web application that utulizes a nosqp database. The goals to reach in this assignmetn were to properly design out databae schemas, and create the routes and methods for information to travel between the database and the front end.
 
 #### Main Page:
 
-![Main Page](/client/src/assets/images/screenshot-1.png)
+![Screesshot1](/assets/screenshot1.png)
 
-#### Search Results:
-
-![Search Results](/client/src/assets/images/screenshot-2.png)
-
-#### Saved Books:
-
-![Saved Books](/client/src/assets/images/screenshot-3.png)
+![Screesshot2]](/assets/screenshot2.png)
+  
+![Screesshot3] (/assets/sceensho3.png)
 
   ## Table of Contents
   - [Tech Used](#tech-used)
@@ -35,16 +29,6 @@ This app was refactored from an existing, fully functional MERN app setup with a
   ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
   ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)  
 
-  
-  ## Contact
-  Please visit my **[GitHub profile](https://github.com/tchestnut85/)** to check out this and other projects I've created and contributed to.
-  Contact me at **thomaschestnut00@gmail.com** with any questions or if you'd like to collaborate.
-
-  ## Links
-  - **[Deployed App](https://booksearch-tc.herokuapp.com/)**
-  - **[GitHub Repo](https://github.com/tchestnut85/book-search)**
-  - **[My Portfolio](https://tchestnut85.github.io/)**
-  - **[Connect on LinkedIn](https://www.linkedin.com/in/thomas-chestnut)**
 
   ## License
   ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)    
