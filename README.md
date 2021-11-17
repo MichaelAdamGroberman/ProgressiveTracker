@@ -6,11 +6,11 @@ This is a web application that utulizes a nosqp database. The goals to reach in 
 
 #### Main Page:
 
-![Screesshot1](/assets/screenshot1.png)
+![Screenshot1](/assets/screenshot1.png)
 
-![Screesshot2]](/assets/screenshot2.png)
+![Screenhot2]](/assets/screenshot2.png)
   
-![Screesshot3] (/assets/sceensho3.png)
+![Screenshot3](/assets/screenshot3.png)
 
   ## Table of Contents
   - [Tech Used](#tech-used)
