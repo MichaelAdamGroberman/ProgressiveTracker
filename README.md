@@ -6,7 +6,7 @@ THe assignment was to turn some premade code into a PWA. This means the app func
 
 
 
-  ![Screenshot1](/assets/screenshot.jpg)
+  ![Screenshot](https://github.com/MichaelAdamGroberman/ProgressiveTracker/blob/main/assets/screenshot.png)
 
   ## License
   ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)    
